@@ -31,7 +31,7 @@ public class Entity : MonoBehaviour
 		renderer = GetComponent<SpriteRenderer>();
 		glowEffect = GetComponent<SpriteGlowEffect>();
 
-		SetState(PlacementState.Hidden);
+		SetState(PlacementState.Active);
 	}
 
 	// Set the sprite properties based on the state of the entity.

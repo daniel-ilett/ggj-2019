@@ -1,0 +1,56 @@
+<Game start>
+Hmm, it's pretty dark in here. It'd be nice to be able to see all my stuff. Mind screwing in a light bulb for me?
+
+<Light placed>
+Ahh, that's a lot better. Oh, jeez, I don't have much stuff though - and it's freezing in here. Brrrr...
+
+<Radiator placed>
+Toasty! When it's Winter and it's snowing outside, I like to sit by the radiator and feel the warmth down my back. Come to think of it, where did I put my cosy jumper?
+
+<Wardrobe placed>
+That was heavy, but surprisingly easy to assemble! Now let's put all my clothes in there.
+
+<Clothing placed>
+I have all sorts of clothes, but recently I've absorbed the styles of people around me if I like the look of them. It's cool to blend styles together and see what works.
+
+<Window placed>
+
+<Door placed>
+
+<Rug placed>
+
+<Curtains placed>
+
+<Bed placed>
+
+<Laundry basket placed>
+
+<Bedside table placed>
+
+<Alarm clock placed>
+
+<Desk placed>
+
+<Chair placed>
+
+<Plug socket placed>
+
+<Computer placed>
+
+<Monitor placed>
+
+<Bin placed>
+
+<Plant placed>
+
+<Guitar placed>
+
+<Shelf placed>
+
+<Books placed>
+
+<Poster placed>
+
+<Plush toy placed>
+
+<Photo frame placed>
