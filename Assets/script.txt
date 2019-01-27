@@ -2,55 +2,92 @@
 Hmm, it's pretty dark in here. It'd be nice to be able to see all my stuff. Mind screwing in a light bulb for me?
 
 <Light placed>
-Ahh, that's a lot better. Oh, jeez, I don't have much stuff though - and it's freezing in here. Brrrr...
+How many gamers does it take to screw in a-- nevermind, that's a lame joke. Oh, jeez, I don't have much stuff - and it's freezing in here. Brrrr...
 
 <Radiator placed>
-Toasty! When it's Winter and it's snowing outside, I like to sit by the radiator and feel the warmth down my back. Come to think of it, where did I put my cosy jumper?
+Toasty! When it's Winter and it's snowing outside, I like to sit by the radiator and feel the warmth down my back. Come to think of it, where did I put my cosy jumper? The heating bill for wool is lower.
 
 <Wardrobe placed>
-That was heavy, but surprisingly easy to assemble! Now let's put all my clothes in there.
+First things first, I need somewhere to put everything. That was heavy, but surprisingly easy to assemble! Now let's put all my clothes in there.
 
 <Clothing placed>
-I have all sorts of clothes, but recently I've absorbed the styles of people around me if I like the look of them. It's cool to blend styles together and see what works.
+I've got different kinds of clothes, but lately I've just been going with the exact average of a few of my friends. They all have distinct styles, so I wondered what it would look like to blend them.
+
+I think this room could sustain me in Winter, but in Summer it's gonna get too stuffy.
 
 <Window placed>
+From June 'til the end of August, I'm gonna have this window wide open. I think I'd melt otherwise. Sweltering heat completely shuts me down - I can't work at all in those conditions.
+
+That said, if I'm in a light T-shirt, it's lovely to go out for walks in the late afternoon and early evening in Summer.
 
 <Door placed>
+How could I forget the exit? I can't box myself in all day.
+
+When I've been on my feet all day, I appreciate taking my shoes off and walking on the soft floor to give them a break.
 
 <Rug placed>
+That's more homely. After all this walking around and sorting out my wardrobe, I think I want to lie down for a bit. It's still a bit light outside, though.
 
 <Curtains placed>
+These are nice and thick - they block out the early morning sunshine really well. Most curtains I've owned couldn't block out even the faintest Winter dawn.
 
 <Bed placed>
+My bed is super-comfortable, and I love my bedsheets - they're purple. The best colour.
 
 <Laundry basket placed>
+Before launching into bed, let's throw my clothes out of the way.
 
 <Bedside table placed>
+And let's give myself somewhere to put a few things it's convenient to have near me when I wake up. I can put a few things on here and use it like a table.
 
 <Alarm clock placed>
+Notably, my alarm clock - that stops me from oversleeping. Although, it's far too easy to just stay in bed and set a second alarm...
 
 <Desk placed>
+Now I'm rejuvanated from a good night's sleep, it's time to get to work. A sizeable desk is step 1, but there's a lot more stuff I'll need to get any work done. My desk is a deep black colour - it goes well with the purple bedsheets.
+
+The desk comes with a handy cupboard with a few shelves in it. I've got most of my gaming equipment hidden away in here, alongside stationery and paper and stuff.
 
 <Chair placed>
+I picked out the most comfortable chair in the shop and got it in white. Together with the wardrobe and bedside table, which are both white, I have my favourite colour combination - purple, black and white. Neat!
 
 <Plug socket placed>
+I spend most of my time using something electronic, so I'm thankful for the discovery of electricity. I mean, obviously - you wouldn't be playing this otherwise.
 
 <Computer placed>
+This is my portal to everything - uni work, making games, chatting with friends. I built it a few years ago - the first time I've ever built a PC. It's served me well ever since.
 
 <Monitor placed>
+Of course, my desktop is useless without something to view its output on. The monitor was a cheap, refurbished model - the opposite of my PC, which I built to be relatively future-proof.
+
+<Desk lamp placed>
+Since I write a lot using pen and paper, it's crucial to have a light source on my desk. The main light doesn't quite give enough backlight. Plus, the desk lamp is cosier if I turn off the main light.
 
 <Bin placed>
+I write a lot of stuff down when working, so naturally this ends up with a lot of discarded paper. Ideas, sketches and designs that didn't pan out - hundreds of them over the course of a year.
+
+<Games console placed>
+Once I've finished working for the day, whether that be PhD work or making games, I like to sit back and read or play something on my Switch. I played Katamari Damacy, Donut County and Quarantine Circular over Christmas and loved them all!
 
 <Plant placed>
+I don't even have a plant in my room. I just think it would be nice if I did.
 
 <Guitar placed>
+I only recently bought a guitar. I listen to so many songs where the main instrument is an acoustic guitar, and for the longest time I've wanted to learn how to play. I'm happy I took the plunge, it's a huge mental weight taken away.
 
 <Shelf placed>
+I don't really need any more storage space, but I'd quite like to have a shelf to store books on. I read quite a few books, actually - but they're mostly e-books.
 
 <Books placed>
+Many of my books are fantasy stories, but a sizeable chunk are technical books about computer graphics. "Physically-Based Rendering: From Theory to Implementation" is an especially thicc tome.
 
 <Poster placed>
+My favourite Pokemon is Mimikyu, so I have a poster above my desk with some fantastic watercolour fan art of one. I can't remember the name of the artist, but I met her and she has a ton of brilliant pieces. My friend bought a Gengar-based one, which also looked amazing.
 
 <Plush toy placed>
+I bought a few Pokemon plushes at a convention I went to with my friends. It's nice to have them around to remind me of all the times I spend with everyone. I have a lot of distinct friend groups though, so there's not quite enough space for a memento of everyone I know.
 
 <Photo frame placed>
+If I had to choose a photo to put on my desk, I'd choose a photo of a few of my closest friends taken at a wedding. I had a great time there, even if I had to get up at 5am for the train.
+
+I believe that's everything in my room now. All of these things help me through the day in some way - either they're practical, or they make my room feel cosier.
