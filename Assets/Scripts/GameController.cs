@@ -7,5 +7,6 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-
+	[SerializeField]
+	private List<Frame> gameFrames;
 }
