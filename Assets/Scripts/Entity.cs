@@ -12,7 +12,7 @@ using SpriteGlow;
 public class Entity : MonoBehaviour
 {
 	[SerializeField]
-	private Transform tooltipPivot;
+	private SpriteRenderer tooltipPivot;
 
 	[SerializeField]
 	private Sprite unknownSprite;
@@ -60,16 +60,24 @@ public class Entity : MonoBehaviour
 		}
 	}
 
-	public Transform SetTooltipActive(bool active)
+	// Set the appropriate tooltip on the item.
+	public void IsHovered(bool isHovered)
 	{
-		tooltipPivot.gameObject.SetActive(active);
-		return tooltipPivot;
+		tooltipPivot.gameObject.SetActive(isHovered && (placementState != PlacementState.Hidden));
+
+		tooltipPivot.sprite = (placementState == PlacementState.Placed) ?
+			tooltipSprite : unknownSprite;
 	}
 
 	// The item is clicked by the player and 'placed' in the level.
 	public void IsClicked()
 	{
-		OnItemClicked(this);
-		SetState(PlacementState.Placed);
+		if(placementState == PlacementState.Active)
+		{
+			OnItemClicked(this);
+			SetState(PlacementState.Placed);
+
+			IsHovered(true);
+		}
 	}
 }

@@ -52,8 +52,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1582696143997680}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.8304281, y: 8.841019, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -21.269573, y: 6.0410185, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4869726663198852}
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69818435e5b7eb46a74c121e0188e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipPivot: {fileID: 4869726663198852}
+  tooltipPivot: {fileID: 212830039714420996}
   unknownSprite: {fileID: 21300000, guid: 942c228c4571908498845b6db598b1a2, type: 3}
 --- !u!114 &114981221477702608
 MonoBehaviour:

@@ -65,9 +65,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1695729820384160}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.07, y: 3.4554148, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.24, y: 0.523, z: 0}
+  m_LocalScale: {x: 0.889, y: 0.889, z: 0.889}
   m_Children:
   - {fileID: 4499983025494760}
   m_Father: {fileID: 0}
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69818435e5b7eb46a74c121e0188e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipPivot: {fileID: 4499983025494760}
+  tooltipPivot: {fileID: 212934032109681934}
   unknownSprite: {fileID: 21300000, guid: 942c228c4571908498845b6db598b1a2, type: 3}
 --- !u!114 &114871696722554614
 MonoBehaviour:
@@ -236,8 +236,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1654623209
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bef4577ea960264438c85238625f7ab3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

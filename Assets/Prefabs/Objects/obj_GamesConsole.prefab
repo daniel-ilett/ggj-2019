@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69818435e5b7eb46a74c121e0188e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipPivot: {fileID: 4340452438822976}
+  tooltipPivot: {fileID: 212599803519653670}
   unknownSprite: {fileID: 21300000, guid: 942c228c4571908498845b6db598b1a2, type: 3}
 --- !u!212 &212448491083940586
 SpriteRenderer:

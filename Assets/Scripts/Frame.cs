@@ -6,11 +6,8 @@ using UnityEngine;
 [System.Serializable]
 public struct Frame
 {
-	[SerializeField]
-	Entity newEntity;
-
-	[SerializeField]
-	Sprite newText;
+	public Entity newEntity;
+	public Sprite newText;
 
 	Frame(Entity newEntity, Sprite newText)
 	{

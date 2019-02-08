@@ -52,8 +52,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1730242718658748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.491648, y: 12.9127865, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.619999, y: 9.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4461737452521644}
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69818435e5b7eb46a74c121e0188e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipPivot: {fileID: 4461737452521644}
+  tooltipPivot: {fileID: 212294391789766672}
   unknownSprite: {fileID: 21300000, guid: 942c228c4571908498845b6db598b1a2, type: 3}
 --- !u!114 &114618035174869714
 MonoBehaviour:
@@ -259,8 +259,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1487323745
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d6c99b39554f9e8419e1d1fcbaffe0ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

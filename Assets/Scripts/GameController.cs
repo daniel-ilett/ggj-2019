@@ -13,6 +13,11 @@ public class GameController : MonoBehaviour
 	[SerializeField]
 	private List<Entity> entities;
 
+	[SerializeField]
+	private SpriteRenderer dialogueBox;
+
+	private int activeFrame = -1;
+
 	public static GameController instance;
 
 	private void Awake()
@@ -29,5 +34,37 @@ public class GameController : MonoBehaviour
 	public void ItemClicked(Entity sender)
 	{
 
+	}
+
+	private void ChangeFrame(int delta)
+	{
+		if(delta > 0)
+		{
+			++activeFrame;
+
+			dialogueBox.sprite = gameFrames[activeFrame].newText;
+
+			gameFrames[activeFrame].newEntity?.SetState(PlacementState.Active);
+		}
+		else
+		{
+			gameFrames[activeFrame].newEntity?.SetState(PlacementState.Hidden);
+
+			--activeFrame;
+
+			dialogueBox.sprite = gameFrames[activeFrame].newText;
+
+			gameFrames[activeFrame].newEntity?.SetState(PlacementState.Active);
+		}
+
+		if(activeFrame > 0)
+		{
+			// Set the back button active.
+		}
+
+		if(gameFrames[activeFrame].newEntity == null)
+		{
+			// Set the forward button active.
+		}
 	}
 }
