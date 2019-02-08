@@ -9,4 +9,25 @@ public class GameController : MonoBehaviour
 {
 	[SerializeField]
 	private List<Frame> gameFrames;
+
+	[SerializeField]
+	private List<Entity> entities;
+
+	public static GameController instance;
+
+	private void Awake()
+	{
+		instance = this;
+
+		// Subscribe to all entity item click events.
+		foreach(var entity in entities)
+		{
+			entity.OnItemClicked += ItemClicked;
+		}
+	}
+
+	public void ItemClicked(Entity sender)
+	{
+
+	}
 }

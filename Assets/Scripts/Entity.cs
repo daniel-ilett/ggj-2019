@@ -26,6 +26,9 @@ public class Entity : MonoBehaviour
 	private SpriteGlowEffect glowEffect;
 	private new SpriteRenderer renderer;
 
+	public delegate void ClickedHandler(Entity sender);
+	public event ClickedHandler OnItemClicked;
+
 	private void Awake()
 	{
 		renderer = GetComponent<SpriteRenderer>();
@@ -61,5 +64,12 @@ public class Entity : MonoBehaviour
 	{
 		tooltipPivot.gameObject.SetActive(active);
 		return tooltipPivot;
+	}
+
+	// The item is clicked by the player and 'placed' in the level.
+	public void IsClicked()
+	{
+		OnItemClicked(this);
+		SetState(PlacementState.Placed);
 	}
 }
