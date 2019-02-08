@@ -12,13 +12,9 @@ public struct Frame
 	[SerializeField]
 	Sprite newText;
 
-	[SerializeField]
-	bool advanceWithClick;
-
-	Frame(Entity newEntity, Sprite newText, bool advanceWithClick)
+	Frame(Entity newEntity, Sprite newText)
 	{
 		this.newEntity = newEntity;
 		this.newText = newText;
-		this.advanceWithClick = advanceWithClick;
 	}
 }
