@@ -16,8 +16,13 @@ public class GameController : MonoBehaviour
 	[SerializeField]
 	private SpriteRenderer dialogueBox;
 
+	[SerializeField]
+	private Entity backButton;
+
+	[SerializeField]
+	private Entity forwardButton;
+
 	private int activeFrame = -1;
-	private bool canClickToAdvanceIPromiseThisIsDebug = false;
 
 	public static GameController instance;
 
@@ -30,6 +35,10 @@ public class GameController : MonoBehaviour
 		{
 			entity.OnItemClicked += ItemClicked;
 		}
+
+		// Subscribe to events on forward and back buttons.
+		forwardButton.OnItemClicked += ItemClicked;
+		backButton.OnItemClicked += GoBack;
 	}
 
 	// Begin the game by advancing to frame 0.
@@ -38,18 +47,16 @@ public class GameController : MonoBehaviour
 		ChangeFrame(1);
 	}
 
-	private void Update()
-	{
-		if(Input.GetButtonDown("Fire1") && canClickToAdvanceIPromiseThisIsDebug)
-		{
-			ChangeFrame(1);
-		}
-	}
-
 	// Advance the game by one frame.
 	public void ItemClicked(Entity sender)
 	{
 		ChangeFrame(1);
+	}
+
+	// Go back a frame.
+	public void GoBack(Entity sender)
+	{
+		ChangeFrame(-1);
 	}
 
 	private void ChangeFrame(int delta)
@@ -58,9 +65,21 @@ public class GameController : MonoBehaviour
 		{
 			++activeFrame;
 
-			dialogueBox.sprite = gameFrames[activeFrame].newText;
+			if(activeFrame < gameFrames.Count)
+			{
+				dialogueBox.sprite = gameFrames[activeFrame].newText;
 
-			gameFrames[activeFrame].newEntity?.SetState(PlacementState.Active);
+				Entity newEntity = gameFrames[activeFrame].newEntity;
+				newEntity?.SetState(PlacementState.Active);
+
+				forwardButton.SetState((newEntity == null) ? PlacementState.Active :
+					PlacementState.Hidden);
+			}
+			else
+			{
+				// Exit the application when the story has ended.
+				Application.Quit();
+			}
 		}
 		else
 		{
@@ -70,14 +89,14 @@ public class GameController : MonoBehaviour
 
 			dialogueBox.sprite = gameFrames[activeFrame].newText;
 
-			gameFrames[activeFrame].newEntity?.SetState(PlacementState.Active);
+			Entity newEntity = gameFrames[activeFrame].newEntity;
+			newEntity?.SetState(PlacementState.Active);
+
+			forwardButton.SetState((newEntity == null) ? PlacementState.Active :
+				PlacementState.Hidden);
 		}
 
-		if(activeFrame > 0)
-		{
-			// Set the back button active.
-		}
-
-		canClickToAdvanceIPromiseThisIsDebug = (gameFrames[activeFrame].newEntity == null);
+		backButton.SetState((activeFrame > 0) ? PlacementState.Active :
+			PlacementState.Hidden);
 	}
 }

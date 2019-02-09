@@ -21,6 +21,7 @@ public class Entity : MonoBehaviour
 
 	private PlacementState placementState = PlacementState.Hidden;
 
+	[SerializeField]
 	private Color activeColour = new Color(1.0f, 1.0f, 1.0f, 0.01f);
 
 	private SpriteGlowEffect glowEffect;
@@ -79,10 +80,10 @@ public class Entity : MonoBehaviour
 	{
 		if(placementState == PlacementState.Active)
 		{
-			OnItemClicked(this);
 			SetState(PlacementState.Placed);
-
 			IsHovered(true);
+
+			OnItemClicked(this);
 		}
 	}
 }
