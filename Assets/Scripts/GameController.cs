@@ -47,6 +47,15 @@ public class GameController : MonoBehaviour
 		ChangeFrame(1);
 	}
 
+	// Close the game if Escape is pressed at any point.
+	private void Update()
+	{
+		if(Input.GetButtonDown("Cancel"))
+		{
+			Application.Quit();
+		}
+	}
+
 	// Advance the game by one frame.
 	public void ItemClicked(Entity sender)
 	{
