@@ -33,7 +33,7 @@ public class GameController : MonoBehaviour
 
 	public void ItemClicked(Entity sender)
 	{
-
+		
 	}
 
 	private void ChangeFrame(int delta)

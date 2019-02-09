@@ -34,7 +34,9 @@ public class Entity : MonoBehaviour
 		renderer = GetComponent<SpriteRenderer>();
 		glowEffect = GetComponent<SpriteGlowEffect>();
 
-		SetState(PlacementState.Hidden);
+		tooltipSprite = tooltipPivot.sprite;
+
+		SetState(PlacementState.Placed);
 	}
 
 	// Set the sprite properties based on the state of the entity.
@@ -63,6 +65,7 @@ public class Entity : MonoBehaviour
 	// Set the appropriate tooltip on the item.
 	public void IsHovered(bool isHovered)
 	{
+		Debug.Log("Hovered! " + (isHovered && (placementState != PlacementState.Hidden)));
 		tooltipPivot.gameObject.SetActive(isHovered && (placementState != PlacementState.Hidden));
 
 		tooltipPivot.sprite = (placementState == PlacementState.Placed) ?
