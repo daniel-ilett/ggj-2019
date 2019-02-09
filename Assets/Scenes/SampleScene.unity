@@ -749,8 +749,35 @@ MonoBehaviour:
     newText: {fileID: 21300000, guid: 2eadd987846683848b161e9da63e8a5f, type: 3}
   - newEntity: {fileID: 0}
     newText: {fileID: 21300000, guid: 44d80c55ea9c9e94ca97691eda522595, type: 3}
-  entities: []
-  dialogueBox: {fileID: 0}
+  entities:
+  - {fileID: 781751673}
+  - {fileID: 2020550435}
+  - {fileID: 1862711351}
+  - {fileID: 946491531}
+  - {fileID: 877361786}
+  - {fileID: 518908434}
+  - {fileID: 980789087}
+  - {fileID: 1258538938}
+  - {fileID: 1112240281}
+  - {fileID: 644923909}
+  - {fileID: 429570091}
+  - {fileID: 1776710859}
+  - {fileID: 1476268066}
+  - {fileID: 628058018}
+  - {fileID: 46195570}
+  - {fileID: 605303001}
+  - {fileID: 1488275196}
+  - {fileID: 172572861}
+  - {fileID: 1017989816}
+  - {fileID: 499207538}
+  - {fileID: 1118536599}
+  - {fileID: 1807386245}
+  - {fileID: 50499173}
+  - {fileID: 866139135}
+  - {fileID: 92968598}
+  - {fileID: 133319950}
+  - {fileID: 1485632661}
+  dialogueBox: {fileID: 1130343166}
 --- !u!4 &689871810
 Transform:
   m_ObjectHideFlags: 0
@@ -1244,6 +1271,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4615722296708534, guid: 6749f114c8aedfd46a2b1c6815a3671b,
     type: 2}
   m_PrefabInternal: {fileID: 1230369192}
+--- !u!212 &1130343166 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 212516761663090620, guid: 04f9fcd8c1eea004a8a649c1aa7889e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1184858502}
 --- !u!1001 &1171010091
 Prefab:
   m_ObjectHideFlags: 0

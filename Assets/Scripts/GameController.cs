@@ -17,6 +17,7 @@ public class GameController : MonoBehaviour
 	private SpriteRenderer dialogueBox;
 
 	private int activeFrame = -1;
+	private bool canClickToAdvanceIPromiseThisIsDebug = false;
 
 	public static GameController instance;
 
@@ -31,9 +32,24 @@ public class GameController : MonoBehaviour
 		}
 	}
 
+	// Begin the game by advancing to frame 0.
+	private void Start()
+	{
+		ChangeFrame(1);
+	}
+
+	private void Update()
+	{
+		if(Input.GetButtonDown("Fire1") && canClickToAdvanceIPromiseThisIsDebug)
+		{
+			ChangeFrame(1);
+		}
+	}
+
+	// Advance the game by one frame.
 	public void ItemClicked(Entity sender)
 	{
-		
+		ChangeFrame(1);
 	}
 
 	private void ChangeFrame(int delta)
@@ -62,9 +78,6 @@ public class GameController : MonoBehaviour
 			// Set the back button active.
 		}
 
-		if(gameFrames[activeFrame].newEntity == null)
-		{
-			// Set the forward button active.
-		}
+		canClickToAdvanceIPromiseThisIsDebug = (gameFrames[activeFrame].newEntity == null);
 	}
 }

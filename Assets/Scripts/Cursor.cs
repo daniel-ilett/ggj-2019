@@ -41,7 +41,7 @@ public class Cursor : MonoBehaviour
 		// Click the targeted items if need be.
 		if (Input.GetButtonDown("Fire1"))
 		{
-			foreach (var target in lastTargets)
+			foreach (var target in currTargets)
 			{
 				target.GetComponent<Entity>()?.IsClicked();
 			}
